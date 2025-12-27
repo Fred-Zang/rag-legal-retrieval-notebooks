@@ -1,4 +1,4 @@
-# 🧠 RAG_Legal__retrieval_notebook — Support de lecture (démarche, benchmarks, roadmap)
+# 🧠 Support de lecture (démarche, benchmarks, roadmap)
 
 <span style="color:#8B949E;">Repo fourni à titre de <b>lecture</b> pour illustrer une démarche RAG (retrieval & évaluation) dans un temps contraint.</span>
 
