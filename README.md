@@ -16,18 +16,36 @@
 
 ---
 
+> <span style="color:#7EE787; font-weight:700;">Intention & implication</span>  
+> Ce dépôt a été construit en mode <b>speed-tests</b> sur une période très courte (fin d’année), avec un objectif clair : <b>illustrer notre implication</b> et notre manière d’attaquer un projet RAG juridique (cadrage, itérations, métriques, enseignements) à partir de la description de mission reçue.  
+> <br/>
+> <span style="color:#8B949E;">
+> Une étude sérieuse démarre selon nous par l’analyse du <b>vrai corpus client</b> (ou d’un extrait représentatif) : formats, structure, métadonnées, versions/dates, typologies, évolutions — afin de définir une stratégie d’extraction/chunking robuste.  
+> Ici, nous avons utilisé un <b>extrait Légifrance</b> uniquement comme “matière” pour dérouler la roadmap et valider la mécanique (retrieval + évaluation), sans prétendre à une qualité “déploiement” ni à des résultats optimaux sur ce corpus de substitution.
+> </span>
+
+---
+
 ## 🚀 Parcours de lecture rapide (5–10 minutes)
 
+<span style="color:#8B949E;">
+<b>Note de lecture :</b> certains notebooks démarrent volontairement “brut” (cellules/outputs) car ils proviennent de tests itératifs.  
+Pour une lecture confortable, repérer les titres et sections Markdown, puis dérouler dans l’ordre ci-dessous.
+</span>
+
 1) 🧭 **Roadmap & questions (fil conducteur)**  
-→ [`notebooks/Z_Roadmap-Questions.ipynb`](./notebooks/Z_Roadmap-Questions.ipynb)
+→ [`notebooks/Z_Roadmap-Questions.ipynb`](./notebooks/Z_Roadmap-Questions.ipynb)  
+<span style="color:#8B949E;">Notre fil conducteur posé dès le début : étapes, hypothèses, jalons, et questions de cadrage apparues au fil des tests.</span>
 
 2) 🧱 **Analyse corpus (fondations RAG : structure/qualité/extraction/chunking — vision “production”)**  
-→ [`notebooks/Z_analyse_corpus_juridique_icons.ipynb`](./notebooks/Z_analyse_corpus_juridique_icons.ipynb)
+→ [`notebooks/Z_analyse_corpus_juridique_icons.ipynb`](./notebooks/Z_analyse_corpus_juridique_icons.ipynb)  
+<span style="color:#8B949E;">Idées d’analyse fondamentale à mener sur le <b>vrai dataset client</b> (non réalisée ici sur l’extrait de substitution), pour sécuriser l’extraction/chunking et la maintenabilité.</span>
 
 3) 🧪 **Bilan technique des étapes 01 → 10 (progression retrieval + métriques + enseignements)**  
-→ [`notebooks/Z_bilan_scripts_1-10.ipynb`](./notebooks/Z_bilan_scripts_1-10.ipynb)
+→ [`notebooks/Z_bilan_scripts_1-10.ipynb`](./notebooks/Z_bilan_scripts_1-10.ipynb)  
+<span style="color:#8B949E;">Synthèse “step by step” : pourquoi chaque étape existe, ce que nous mesurons, ce que nous validons, et ce que cela implique pour une exécution sur le corpus client.</span>
 
-Ensuite, si besoin : lecture détaillée de la série **01 → 10** dans l’ordre.
+Ensuite, si besoin : lecture détaillée de la série de scripts **01 → 10** dans l’ordre.
 
 ---
 
