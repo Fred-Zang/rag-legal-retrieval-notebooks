@@ -81,6 +81,7 @@ Ensuite, si besoin : lecture détaillée de la série **01 → 10** dans l’ord
 
 > Ces fichiers `.py` ont été volontairement séparés comme briques annexes (réutilisables) pour itérer rapidement dans le temps imparti.
 
+- [`modules_annexes/corpus_chunks_extrait.jsonl`](./modules_annexes/corpus_chunks_extrait.jsonl) — extrait **représentatif** (100 chunks) du corpus JSONL **chunké** : 1 ligne = 1 chunk avec `doc_id`, `text` et métadonnées (utilisé pour illustrer le format et faciliter la lecture ici sans publier le corpus complet ~13 180 lignes trop volumineux).
 - [`modules_annexes/corpus_loader.py`](./modules_annexes/corpus_loader.py) — point d’entrée unique de chargement du corpus (XML ou JSONL chunké) + filtre simple, sans logique retrieval.
 - [`modules_annexes/benchmark_queries.py`](./modules_annexes/benchmark_queries.py) — jeu de requêtes “V1” (questions + intentions + mots-clés) servant d’oracle simple et stable pour comparer les runs.
 - [`modules_annexes/juridical_dictionary.yml`](./modules_annexes/juridical_dictionary.yml) — dictionnaire métier versionné (intentions → concepts/termes/codes/articles cibles) utilisé pour normaliser le langage utilisateur.
