@@ -19,7 +19,7 @@
 ## 🚀 Parcours de lecture rapide (5–10 minutes)
 
 1) 🧭 **Roadmap & questions (fil conducteur)**  
-→ [`notebooks/Z_roadmap_questions.ipynb`](./notebooks/Z_Roadmap_Questions.ipynbb)
+→ [`notebooks/Z_Roadmap_Questions.ipynb`](./notebooks/Z_Roadmap_Questions.ipynbb)
 
 2) 🧱 **Analyse corpus (fondations RAG : structure/qualité/extraction/chunking — vision “production”)**  
 → [`notebooks/Z_analyse_corpus_juridique_icons.ipynb`](./notebooks/Z_analyse_corpus_juridique_icons.ipynb)
