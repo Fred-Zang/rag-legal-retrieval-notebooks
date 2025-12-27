@@ -70,7 +70,7 @@ Ensuite, si besoin : lecture détaillée de la série **01 → 10** dans l’ord
    → [`notebooks/08_corpus_chunker_xml_presentation.ipynb`](./notebooks/08_corpus_chunker_xml_presentation.ipynb)
 
 9. 09 — **Benchmark BM25 sur chunks (JSONL chunké)**  
-   → [`notebooks/07_Dense_with_Query_Understanding_presentation.ipynb`](./notebooks/07_Dense_with_Query_Understanding_presentation.ipynb)
+   → [`notebooks/09_Benchmark_BM25_on_JSONL_chunks_presentation.ipynb`](./notebooks/09_Benchmark_BM25_on_JSONL_chunks_presentation.ipynb)
 
 10. 10 — **Hybride BM25 + Dense via RRF sur chunks (fusion de rankings)**  
    → [`notebooks/10_Benchmark_Hybride_RRF_BM25_Dense_chunks_presentation.ipynb`](./notebooks/10_Benchmark_Hybride_RRF_BM25_Dense_chunks_presentation.ipynb)
