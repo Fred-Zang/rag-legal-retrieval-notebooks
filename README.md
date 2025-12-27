@@ -81,7 +81,13 @@ Ensuite, si besoin : lecture détaillée de la série **01 → 10** dans l’ord
 
 > Ces fichiers `.py` ont été volontairement séparés comme briques annexes (réutilisables) pour itérer rapidement dans le temps imparti.
 
-- [`modules_annexes/corpus_loader.py`](./modules_annexes/corpus_loader.py) — chargement & préparation du corpus (I/O, filtres, utilitaires).
+- [`modules_annexes/corpus_loader.py`](./modules_annexes/corpus_loader.py) — point d’entrée unique de chargement du corpus (XML ou JSONL chunké) + filtre simple, sans logique retrieval.
+- [`modules_annexes/benchmark_queries.py`](./modules_annexes/benchmark_queries.py) — jeu de requêtes “V1” (questions + intentions + mots-clés) servant d’oracle simple et stable pour comparer les runs.
+- [`modules_annexes/juridical_dictionary.py`](./modules_annexes/juridical_dictionary.py) — dictionnaire métier versionné (intentions → concepts/termes/codes/articles cibles) utilisé pour normaliser le langage utilisateur.
+- [`modules_annexes/metrics.py`](./modules_annexes/metrics.py) — métriques d’évaluation retrieval (Recall@k, MRR, nDCG@k) avec pertinence binaire basée sur mots-clés (oracle V1).
+- [`modules_annexes/query_understanding.py`](./modules_annexes/query_understanding.py) — pipeline de “query understanding” sans LLM : détection d’intention via dictionnaire + enrichissement de requête avant retrieval.
+- [`modules_annexes/corpus_loader_jsonl.py`](./modules_annexes/corpus_loader_jsonl.py) — chargeur dédié au corpus JSONL chunké (1 ligne = 1 chunk) en conservant doc_id/text + métadonnées utiles.
+- [`modules_annexes/benchmark_queries_v2.py`](./modules_annexes/benchmark_queries_v2.py) — benchmark “article-aware” (oracle par `meta.num` via préfixes d’articles) + fallback mots-clés si la métadonnée manque.
 
 
 ---
