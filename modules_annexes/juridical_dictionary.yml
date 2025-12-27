@@ -1,0 +1,37 @@
+rupture_sans_preavis:
+  label: "Rupture du contrat de travail sans préavis"
+  description: >
+    Cas dans lesquels un contrat de travail à durée indéterminée
+    peut être rompu immédiatement, sans exécution du préavis.
+
+  intentions_utilisateur:
+    - rupture sans préavis
+    - rompre un CDI sans préavis
+    - licenciement immédiat
+    - fin de contrat immédiate
+    - licenciement sans préavis
+
+  concepts_juridiques_centrals:
+    - faute grave
+    - faute lourde
+    - dispense de préavis
+    - inexécution du préavis
+
+  termes_juridiques_textes:
+    - faute grave
+    - faute lourde
+    - préavis
+    - indemnité compensatrice de préavis
+    - privation de préavis
+
+  articles_cibles:
+    - L1234-1
+    - L1234-5
+
+  codes_cibles:
+    - Code du travail
+
+  exclusions:
+    - rupture conventionnelle
+    - démission
+    - fin de CDD
