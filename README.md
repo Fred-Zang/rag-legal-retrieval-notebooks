@@ -77,7 +77,7 @@ Ensuite, si besoin : lecture détaillée de la série **01 → 10** dans l’ord
 
 ---
 
-## 🧩 Modules python construits pour le besoin des tests
+## 🧩 Modules .py, .yml et jsonl construits pour le besoin des tests
 
 > Ces fichiers `.py` ont été volontairement séparés comme briques annexes (réutilisables) pour itérer rapidement dans le temps imparti.
 
