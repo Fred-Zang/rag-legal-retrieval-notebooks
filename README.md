@@ -46,34 +46,34 @@ Ensuite, si besoin : lecture détaillée de la série **01 → 10** dans l’ord
 > Les sorties/observations présentes sont celles obtenues sur le corpus d’exploration (non inclus).
 
 1. 01 — **BM25 simple (baseline)**  
-   → `notebooks/01_BM25_simple.ipynb`
+   → [`notebooks/01_BM25_simple.ipynb`](./notebooks/01_BM25_simple.ipynb)
 
 2. 02 — **Benchmark BM25 (protocole & métriques)**  
-   → `notebooks/02_Benchmark_BM25.ipynb`
+   → [`notebooks/02_Benchmark_BM25.ipynb`](./notebooks/02_Benchmark_BM25.ipynb)
 
 3. 03 — **BM25 avec filtres (contraintes métier)**  
-   → `notebooks/03_Benchmark_filtre-BM25.ipynb`
+   → [`notebooks/03_Benchmark_filtre-BM25.ipynb`](./notebooks/03_Benchmark_filtre-BM25.ipynb)
 
 4. 04 — **Dense retrieval (embeddings)**  
-   → `notebooks/04_dense_retrieval_embedding.ipynb`
+   → [`notebooks/04_dense_retrieval_embedding.ipynb`](./notebooks/04_dense_retrieval_embedding.ipynb)
 
 5. 05 — **BM25 + “query understanding” (expansion/enrichissement)**  
-   → `notebooks/05_bm25_with_query_understanding.ipynb`
+   → [`notebooks/05_bm25_with_query_understanding.ipynb`](./notebooks/05_bm25_with_query_understanding.ipynb)
 
 6. 06 — **BM25 filtré + query understanding**  
-   → `notebooks/06_bm25_filtered_with_query_understanding.ipynb`
+   → [`notebooks/06_bm25_filtered_with_query_understanding.ipynb`](./notebooks/06_bm25_filtered_with_query_understanding.ipynb)
 
 7. 07 — **Dense + query understanding**  
-   → `notebooks/07_dense_with_query_understanding.ipynb`
+   → [`notebooks/07_dense_with_query_understanding.ipynb`](./notebooks/07_dense_with_query_understanding.ipynb)
 
 8. 08 — **Chunking XML → chunks exploitables (pré-indexation)**  
-   → `notebooks/08_corpus_chunker_xml.ipynb`
+   → [`notebooks/08_corpus_chunker_xml.ipynb`](./notebooks/08_corpus_chunker_xml.ipynb)
 
 9. 09 — **Benchmark BM25 sur chunks (JSONL chunké)**  
-   → `notebooks/09_benchmark_bm25_on_jsonl_chunks.ipynb`
+   → [`notebooks/09_benchmark_bm25_on_jsonl_chunks.ipynb`](./notebooks/09_benchmark_bm25_on_jsonl_chunks.ipynb)
 
 10. 10 — **Hybride BM25 + Dense via RRF sur chunks (fusion de rankings)**  
-   → `notebooks/10_benchmark_hybride_rrf_bm25_dense_chunks.ipynb`
+   → [`notebooks/10_benchmark_hybride_rrf_bm25_dense_chunks.ipynb`](./notebooks/10_benchmark_hybride_rrf_bm25_dense_chunks.ipynb)
 
 ---
 
